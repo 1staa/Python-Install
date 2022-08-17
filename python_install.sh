@@ -18,6 +18,8 @@ sudo tar -zxvf Python-3.8.10.tgz
 
 echo -e "\n----- Make -----"
 
+yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gcc make
+
 cd Python-3.8.10
 
 sudo ./configure  --prefix=/usr/local/pyhton3.8
